@@ -58,8 +58,8 @@ window.signupUser = function () {
             text: "You have successfully signed up!",
             icon: "success"
         });
-        window.location.assign("./pages/form/form.html");
     })
+    window.location.assign("./pages/product/product.html")
     .catch(function (err) {
         console.log(err.message);
         let errorMessage = err.message;

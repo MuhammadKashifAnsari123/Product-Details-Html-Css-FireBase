@@ -57,6 +57,11 @@ window.addData = function() {
     
         .then(function (){
             console.log("Succesfully");
+            Swal.fire({
+                title: "Thanks your product added!",
+                text: "You have successfully!",
+                icon: "success"
+            });
         })
     
         .catch(function (err) {

@@ -37,7 +37,6 @@ function getData() {
         showProduct.innerHTML = '';
 
         for(var i = 0; i < arr.length; i++){
-            console.log(arr[i]);
             showProduct.innerHTML += `
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
