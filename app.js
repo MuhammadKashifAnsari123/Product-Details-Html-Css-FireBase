@@ -74,7 +74,7 @@ window.signupUser = function () {
         }
 
         Swal.fire({
-            title: "Sign up error!",
+            title: "You are already registered please login!",
             text: errorMessage,
             icon: "error"
         });
